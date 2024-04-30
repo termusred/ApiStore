@@ -5,8 +5,11 @@
     gap: 4rem;
     width: 40%;
     height: 90vh;
-    margin-left: 30rem;
     background-color: rgb(176, 207, 176);
+}
+.App {
+    display: flex;
+    justify-content: center;
 }
 .first , .second {
     display: flex;
