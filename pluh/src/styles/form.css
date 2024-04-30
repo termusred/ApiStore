@@ -1,0 +1,32 @@
+.Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    width: 40%;
+    height: 90vh;
+    margin-left: 30rem;
+    background-color: rgb(176, 207, 176);
+}
+.first , .second {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+input {
+    height: 2rem;
+    border: 0px;
+    border-radius: 12px;
+}
+input:hover {
+    background-color: rgb(243, 211, 151);
+}
+input[type="Submit"] {
+    height: 2rem;
+    width: 20rem;
+    border: 0px;
+    border-radius: 12px;
+}
+input:focus {
+    outline: none;
+}
